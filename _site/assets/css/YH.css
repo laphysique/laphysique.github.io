@@ -1,0 +1,37 @@
+@media (min-width : 501px) {
+#fifty-right {  width:49.5%; height: auto; float:right;}  
+#fifty-left  {  width:49.5%; height: auto; float:left;}  
+}
+@media (max-width : 501px) {
+#fifty-right {  width:100%; height: auto; }  
+#fifty-left {  width:100%; height: auto; }  
+}
+
+
+
+@font-face {
+font-family: "FontAwesome";
+font-weight: normal;
+font-style : normal;
+       src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2");
+}
+
+.post-tag {
+  display: inline-block;
+  border-style: solid;
+  border-width: thin;
+  border-color: $theme-color;
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: $theme-color;
+  font-family: $font-sans;
+  font-weight: normal;
+  font-size: 90%;
+}
+.post-tag:before {
+    content: '\f02b';
+    font-family: FontAwesome;
+    padding-right: .3em;
+}
+ 

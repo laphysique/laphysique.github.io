@@ -1,0 +1,197 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper, sans]{article}     
+%\usepackage[letterpaper, left=0.7in, right=0.7in,top=0.5in, bottom=0.5in]{geometry} 
+\usepackage[top=0.5in, bottom=0.5in, left=0.8in, right=0.8in]{geometry}  
+\usepackage{xcolor}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage[none]{hyphenat}
+\pagenumbering{gobble}
+
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[leftmargin=0.2in, itemsep=0in]{etaremune}
+
+%\graphicspath{{../}}
+%\setlength\parindent{0pt}
+
+%\setlength{\hintscolumnwidth}{5cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% highlight \name in Publications
+\newcommand{\tname}[1]{{\bf #1}}%{\underline{#1}}
+
+
+% new section title
+\newcommand{\newsec}[1]{\subsection*{\hspace{-1.5pt}\uppercase{#1}}}
+
+% personal data
+\def\name{Yi-Hsuan Lin, PhD}
+
+\def\header{
+\begin{center}
+{\LARGE\bf \name} \vspace{0.3cm} \\
+yi-hsuan.lin@outlook.com
+| $+$1-416-829-6531 | 
+%\href{http://individual.utoronto.ca/yihsuanlin}{individual.utoronto.ca/yihsuanlin} \\
+\href{https://laphysique.github.io}{laphysique.github.io}
+\end{center}
+
+}
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    urlcolor = black,
+    linkcolor = black,
+    citecolor = black,
+  pdfauthor = {\name},
+  %pdfkeywords = {physics, biophysics},
+  pdftitle = {\name: publication list},
+  pdfsubject = {publication list},
+  pdfpagemode = UseNone
+}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+% Header
+\header
+
+
+%\begin{center}
+%\section*{\Large Peer-Reviewed Publications}
+%\end{center}
+
+%\vspace{-1em}\ \
+
+\begin{flushleft}
+
+\newsec{Peer-Reviewed Publications}
+
+\begin{etaremune}[leftmargin=17pt]
+
+\item S. Das, \tname{Y.-H. Lin}, R. M. Vernon, J. D. Forman-Kay, and H. S, Chan (2020)
+Comparative roles of charge, $\pi$, and hydrophobic interactions in sequence-dependent phase separation of intrinsically disordered proteins. 
+{\it Proc. Natl. Acad. Sci. U.S.A.} {\bf 117}, 28795--28805
+
+\item 
+A. N. Amin$^*$, \tname{Y.-H. Lin}$^*$, S. Das, and H. S. Chan (2020)
+Analytical theory for sequence-specific binary fuzzy complexes of charged intrinsically disordered proteins.
+%Preprint: arXiv:1910.11194 
+{\it J. Phys. Chem. B} {\bf 124}, 6709--6720 \\
+($^*$equal contribution; selected supplementary cover) 
+
+\item
+\tname{Y.-H. Lin}, J. P Brady, H. S. Chan, and K. Ghosh (2020)
+A unified analytical theory of heteropolymers for sequence-specific phase behaviors of polyelectrolytes and polyampholytes. 
+{\it J. Chem. Phys.} {\bf 152}, 045102
+
+\item
+H. Cinar, R. Oliva, \tname{Y.-H. Lin}, X. Chen, M. Zhang, H. S. Chan, and R. H. A. Winter (2020)
+Pressure sensitivity of SynGAP/PSD-95 condensates as a model for postsynaptic densities and its biophysical and neurological ramifications. 
+{\it Chem. Eur. J.} {\bf 26}, 11024--11031 (cover feature)
+
+\item
+S. Das, A. N. Amin, \tname{Y.-H. Lin}, and H. S. Chan (2018)
+Coarse-grained residue-based models of disordered protein condensates: utility and limitations of simple charge pattern parameters, {\it Phys. Chem. Chem. Phys.} {\bf 20}, 28558--28574
+
+\item
+\tname{Y.-H. Lin}, J. D. Forman-Kay, and H. S. Chan (2018)
+Theories for sequence-dependent phase behaviors of biomolecular condensates.
+{\it Biochemistry} {\bf 57}, 2499--2508
+
+\item 
+S. Das, A. Eisen, \tname{Y.-H. Lin}, and H. S. Chan (2018)
+A lattice model of charge-pattern-dependent polyampholyte phase separation.
+{\it J. Phys. Chem. B} {\bf 122}, 5418--5431
+
+\item
+\tname{Y.-H. Lin}, J. P. Brady, J. D. Forman-Kay, and H. S. Chan (2017) 
+Charge pattern matching as a ``fuzzy'' mode of molecular recognition for the functional phase separations of intrinsically disordered proteins.
+{\it New J. Phys.} {\bf 19}, 115003
+
+\item 
+J. P. Brady, P. J. Farber, A. Sekhar, \tname{Y.-H. Lin}, R. Huang, A. Bah, T. J. Nott, H. S. Chan, A. J. Baldwin, J. D. Forman-Kay, and L. E. Kay (2017) 
+Structural and hydrodynamic properties of an intrinsically disordered region of a germ-cell specific protein upon phase separation. 
+{\it Proc. Natl. Acad. Sci. U.S.A.} {\bf 114}, E8194--E8203
+
+\item
+\tname{Y.-H. Lin} and H. S. Chan (2017) 
+Phase separation and single-chain compactness of charged disordered proteins are strongly correlated. 
+{\it Biophys. J.} {\bf 112}, 2043--2046
+
+\item 
+\tname{Y.-H. Lin}, J. Song, J. D. Forman-Kay, and H. S. Chan (2017) 
+Random-phase-approximation theory for sequence-
+dependent, biologically functional liquid-liquid phase separation of intrinsically disordered proteins. 
+{\it J. Mol. Liq.} {\bf 228}, 176--193
+
+\item
+\tname{Y.-H. Lin}, J. D. Forman-Kay, and H. S. Chan (2016) 
+Sequence-specific polyampholyte phase separation in membraneless organelles. 
+{\it Phys. Rev. Lett.} {\bf 117}, 178101
+
+\item 
+\tname{Y.-H. Lin} and R. Bundschuh (2015) 
+RNA structure generates natural cooperativity between single-stranded RNA binding proteins targeting 5' and 3'UTRs.
+{\it Nucleic Acids Res.} {\bf 43}, 1160--1169
+
+\item 
+\tname{Y.-H. Lin} and R. Bundschuh (2013) 
+Interplay between single-stranded binding proteins on RNA secondary structure.
+{\it Phys. Rev. E} {\bf 88}, 052707
+\end{etaremune} 
+
+%\end{flushleft}
+
+
+%\begin{center}
+%\vspace{6pt}
+
+%\begin{center}
+%\section*{\Large Working Papers}
+%\end{center}
+
+%\vspace{-1em}\ \
+
+%\begin{flushleft}
+
+\newsec{Working Paper}
+
+\begin{itemize}[leftmargin=*, itemsep=0in]
+
+\item 
+J. Gaither, \tname{Y.-H. Lin}, and R. Bundschuh (2016) 
+RBPBind: Quantitative prediction of Protein-RNA Interactions. 
+Preprint: arXiv:1611.01245 %[q-bio.BM]
+
+%\item 
+%J. Wessén, T. Pal,  S. Das, \tname{Y.-H. Lin}, and H. S. Chan (2021)
+%A simple explicit-solvent model of polyampholyte phase behaviors and its ramifications for dielectric effects in biomolecular condensates.
+%(in preparation)
+
+\end{itemize} 
+
+\end{flushleft}
+
+\bigskip
+
+
+
+
+
+\end{document}
+
+%% end of file `template.tex'.

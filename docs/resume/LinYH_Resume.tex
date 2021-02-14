@@ -1,0 +1,246 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper, sans]{article}     
+%\usepackage[letterpaper, left=0.7in, right=0.7in,top=0.5in, bottom=0.5in]{geometry} 
+\usepackage[top=0.5in, bottom=0.5in, left=0.8in, right=0.8in]{geometry}  
+\usepackage{xcolor}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage[none]{hyphenat}
+\pagenumbering{gobble}
+
+
+
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+
+
+
+
+\newcommand{\newsec}[1]{\subsection*{\hspace{-1.5pt}\uppercase{#1}}}
+\newcommand{\newsubsec}[1]{\vspace{0.2cm}{\bf #1}\vspace{0.1cm}} 
+
+\newcommand{\itm}[1]{$\circ\;$ #1 \vspace{0.1em}\\}
+
+\newenvironment{boxhonor}[1]
+{
+\def\temp{#1}
+\begin{tabular}
+{p{0.025\textwidth}>{\raggedright\arraybackslash}
+p{0.85\textwidth}>{\raggedleft\arraybackslash}
+p{0.125\textwidth}}
+$\circ\;\,$ &
+}
+{
+&  \temp \end{tabular}
+}
+
+% Make lists without bullets
+\newenvironment{itemnew}{
+  \begin{itemize}[label=$\circ$,leftmargin=*]{
+  }
+}{
+  \end{itemize}
+}
+
+
+
+
+
+
+
+% personal data
+\def\name{Yi-Hsuan Lin, PhD}
+
+\def\header{
+\begin{center}
+{\LARGE\bf \name} \vspace{0.3cm} \\
+yi-hsuan.lin@outlook.com
+| $+$1-416-829-6531 | 
+%\href{http://individual.utoronto.ca/yihsuanlin}{individual.utoronto.ca/yihsuanlin} \\
+\href{https://laphysique.github.io}{laphysique.github.io}
+\end{center}
+}
+
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    urlcolor = black,
+    linkcolor = black,
+    citecolor = black,
+  pdfauthor = {\name},
+  pdftitle = {\name: resume},
+  pdfsubject = {resume},
+  pdfpagemode = UseNone
+}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+% Header
+\header
+
+\begin{flushleft}
+
+%\newsec{Summary}
+
+%A theoretical physics PhD with excellent skills of numerical analysis and quantitative modeling, having 10+ years of experience in solving quantitative complex problems %by numerical analysis and quantitative modeling 
+%into your team. 
+%the~\team~at
+%~\company.
+%\vspace{-2.5em}\ \
+
+\newsec{Highlights}
+
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item {\bf 10+} years of research experience in theoretical and computational biophysics and bioinformatics
+\item {\bf 14} scientific papers in peer-reviewed journals
+cumulatively cited {\bf over 600} times
+\item {\bf 10} invited seminars and colloquia in world-leading academic institutes and conferences
+%\item Co-chaired a special session %the ``Using Polymer Sequence to Control Material Properties" 
+%at the 2019 American Physical Society March Meeting (Mar 8, 2019)
+\item GitHub repositories: \href{https://github.com/laphysique}{github.com/laphysique} 
+\end{itemize}
+
+\newsec{Education}
+
+{\bf Ph.D., Physics}, The Ohio State University, Ohio, USA \hfill 2015 \\
+{\bf B.Sc., Physics}, University of Illinois at Urbana-Champaign, Illinois, USA (GPA 3.74) \hfill 2009
+
+\newsubsec{Certificates}: 
+
+Financial Engineering and Risk Management I \& II (Columbia Univ) \hfill 2020 \\
+Introduction to Deep Learning with Honors (Coursera.org/HSE Univ)  \hfill 2020 \\
+Bayesian Methods for Machine Learning with Honors (Coursera.org/HSE Univ)  \hfill 2020 \\
+Practical Reinforcement Learning with Honors (Coursera.org/HSE Univ)  \hfill 2020 \\
+
+\newsec{Experience}
+
+{\bf Molecular Modeling Lead,
+HTuO Biosciences} 
+\hfill Jan 2021 -- present
+\vspace{-0.5em} \\
+\begin{itemize}[leftmargin=*]\itemsep-0.1em
+\item Developing molecular dynamics simulation force fields
+\item Incorporating machine learning to optimizing simulation performance
+\item Implementing mathematical physics to validate stability of simulation methods
+\end{itemize}
+
+%{\bf Freelance ESG Data Scientist} \hfill Jun 2020 -- present
+%\vspace{-0.5em}\\
+%\begin{itemize}[leftmargin=*]\itemsep-0.1em
+%\item Applied supervised machine learning algorithms and Bayesian statistics to build models for time series
+%forecasting of environmental, social and corporate governance (ESG) financial data.
+%\end{itemize}
+
+%{\bf Science Advisor, StemCellerant} \hfill Nov 2019 -- Dec 2019 
+%\vspace{-0.5em}\\
+%\begin{itemize}[leftmargin=*]\itemsep-0.1em
+%\item Provided consultation on biotech application and business development of new stem cell differentiation technology and systems biology
+%\end{itemize}
+
+\vspace{-1.5em}\ \
+
+{\bf Postdoctoral Fellow, 
+University of Toronto / Hospital for Sick Children} 
+\hfill Jul 2015 -- Jul 2021  %\vspace{0.2em}
+\vspace{-0.5em}\\
+%Project: {\it Theories for sequence-dependent phase behaviors of biomolecular condensates}\vspace{-0.2em} 
+\begin{itemize}[leftmargin=*]\itemsep-0.1em
+\item Published {\bf 12} peer-reviewed papers in theoretical/computational physics, chemistry, and biology
+\item Supervised and mentored over {\bf 4} junior scientists (graduate students and trainees)
+%\item Conduct research on theoretical and computational biophysics and biochemistry 
+%\item Develop quantitative models for predicting complex protein and nucleic acid behavior%biological phenomena
+%\item Develop Monte Carlo simulation programs from scratch for protein assemblies 
+\item Project: {\it Theories for sequence-dependent phase behaviors of biomolecular condensates}
+\end{itemize}
+
+\vspace{-1.5em}\ \
+
+{\bf Graduate Research Associate, %in Biophysics, 
+The Ohio State University}  \hfill Jul 2012 -- May 2015
+\vspace{-0.5em} \\
+%Project: {\it Biophysics of interactions between proteins and nucleic acids} \vspace{-0.2em} 
+\begin{itemize}[leftmargin=*]\itemsep-0.1em
+%\item Developed statistical physics models for DNA and RNA behavior
+\item Published {\bf 2} peer-reviewed papers in theoretical physics and bioinformatics
+\item Established theoretical framework for online RNA-protein binding predictor \href{http://bioserv.mps.ohio-state.edu/RBPBind/}{\underline{\bf RBPBind}}
+\item Project: {\it Biophysics of interactions between proteins and nucleic acids}
+%\item Conducted statistical analysis for RNA and microRNA databases
+%\item Conducted Monte Carlo simulation for RNA behavior
+\end{itemize}
+
+%\noindent
+%{\bf Graduate Research Associate in Quantum Physics,
+%The Ohio State University}  \hfill Jul 2011 -- May 2012
+%\vspace{-0.5em} \\
+%\begin{itemize}[leftmargin=*]\itemsep-0.1em
+%\item Applied quantum physics methods to study the behavior of atoms at absolute zero degree.
+%\item Project: {\it BEC-BCS crossover in cold-atomic systems}
+%\end{itemize}
+
+
+\newsec{Skills}
+\begin{itemize}[leftmargin=*]\itemsep-0.1em
+%
+\item {\bf Math/Stat:}
+Numerical Analysis, 
+Bayesian Statistics, 
+Multivariate Linear/Nonlinear Optimization, 
+%\item {\bf Advanced Math for Physics:} 
+Linear Algebra, 
+Multivariable Calculus,
+Stochastic Calculus,
+Partial Differential Equation, 
+%Fourier and Laplace Transformation
+Complex Analysis %, Functional Optimization %with Functional Analysis
+\item{\bf Modelings:}
+Theoretical Physics, Molecular Biophysics, Bioinformatics,
+Monte Carlo Simulation, Molecular Dynamics Simulation, %Support-Vector Machines, 
+%Neural Networks, Random Forests,
+Data-Driven Statistical Modeling,
+Machine Learning,
+%Natural Language Processing, 
+%Dynamic Programming,
+Deep Learning, Reinforcement Learning, %Gaussian Mixture Model,
+Data Visualization, 
+Principal Component Analysis, 
+Time Series Forecasting
+%
+\item{\bf Programming:} 
+Python, Matlab/Octave, C/C++, Mathematica, Julia, SQL
+%
+\item{\bf Tools:}
+Numpy, Scipy, Pandas, Matplotlib, Scikit-Learn, PyMC, TensorFlow, PyTorch, SQLite, MPI, Git
+%
+
+
+\end{itemize}
+
+%\vspace{-1em}
+
+\newsec{Honors and Awards}
+
+\noindent
+{\bf Postdoctoral Award}, Intrinsically Disordered Protein Subgroup, Biophysical Society (USA) \hfill 2019 \\
+{\bf Scholarship for Study Abroad}, Taiwan Ministry of Education  \hfill 2007--2013 \\
+{\bf Gold Medal}, The 36$^{ \mathsf{th}}$ International Physics Olympiad \hfill 2005
+
+
+\end{flushleft}
+
+\end{document}
+
+%% end of file `template.tex'.
