@@ -10,7 +10,12 @@
 %\usepackage[letterpaper, left=0.7in, right=0.7in,top=0.5in, bottom=0.5in]{geometry} 
 \usepackage[top=0.5in, bottom=0.5in, left=0.8in, right=0.8in]{geometry}  
 \usepackage{xcolor}
+
+\usepackage{xeCJK}
+\setCJKsansfont{Heiti SC}
+\setCJKmainfont[BoldFont=Heiti SC Medium]{Heiti SC Light}
 \renewcommand\familydefault{\sfdefault} 
+
 \usepackage[T1]{fontenc}
 \usepackage[none]{hyphenat}
 \pagenumbering{gobble}
@@ -30,18 +35,18 @@
 
 
 % new section title
-\newcommand{\newsec}[1]{\subsection*{\hspace{-1.5pt}\uppercase{#1}}}
+\newcommand{\newsec}[1]{\subsection*{\hspace{-1.5pt}\Large\uppercase{\bf #1}}}
 
 % personal data
-\def\name{Yi-Hsuan Lin, PhD}
+\def\name{林義軒, PhD}
 
 \def\header{
 \begin{center}
 {\LARGE\bf \name} \vspace{0.3cm} \\
 yi-hsuan.lin@outlook.com
 | $+$1-416-829-6531 | 
-%\href{http://individual.utoronto.ca/yihsuanlin}{individual.utoronto.ca/yihsuanlin} \\
 \href{https://www.linkedin.com/in/yihsuanlinphysics/}{www.linkedin.com/in/yihsuanlinphysics}
+%\href{http://individual.utoronto.ca/yihsuanlin}{individual.utoronto.ca/yihsuanlin} \\
 %\href{https://laphysique.github.io}{laphysique.github.io}
 \end{center}
 
@@ -79,7 +84,7 @@ yi-hsuan.lin@outlook.com
 
 \begin{flushleft}
 
-\newsec{Peer-Reviewed Publications}
+\newsec{發表論文}
 
 \begin{etaremune}[leftmargin=17pt]
 
@@ -169,23 +174,62 @@ Interplay between single-stranded binding proteins on RNA secondary structure.
 
 %\begin{flushleft}
 
-\newsec{Working Paper}
+{\bf\large 論文預印本}
 
 \begin{itemize}[leftmargin=*, itemsep=0in]
 
 \item 
 J. Wessén, T. Pal,  S. Das, \tname{Y.-H. Lin}, and H. S. Chan (2021)
 A simple explicit-solvent model of polyampholyte phase behaviors and its ramifications for dielectric effects in biomolecular condensates.
-Preprint: arXiv:2102.03687
+Preprint: arXiv: 2102.03687 
 
 \item 
 J. Gaither, \tname{Y.-H. Lin}, and R. Bundschuh (2016) 
-RBPBind: Quantitative prediction of Protein-RNA Interactions. 
+RBPBind: quantitative prediction of protein-RNA interactions. 
 Preprint: arXiv:1611.01245 %[q-bio.BM]
 
-
-
 \end{itemize} 
+
+
+\newsec{受邀演講}
+
+\begin{etaremune}[leftmargin=17pt]
+
+\item 加拿大曼尼托巴大學物理學系 \hfill 2020年11月25日 \\
+主題：生物非均相聚合物的高分子物理場論
+
+\item 美國生物物理學年會無序蛋白組年度學術報告 \hfill 2019年3月2日 \\
+主題：帶電無序蛋白序列特異性的高分子理論與仿真模擬 \\
+(年度博士後獎項特別演講)
+
+\item 中國科學院化學研究所 \hfill 2018年10月15日 \\
+主題：無序蛋白序列特異性的液--液相分離理論與仿真模擬
+
+\item 北京大學定量生物學研究中心 \hfill 2018年10月15日 \\
+主題：無序蛋白序列特異性的液--液相分離理論與仿真模擬
+
+\item 武漢華中師範大學生物物理研究所 \hfill 2018年10月12日\\
+主題：生物體內液--液相分離的理論與仿真模擬
+
+
+\item 多倫多大學生物化學系學術交流會 \hfill 2018年10月2日 \\
+主題：無序蛋白序列特異性的液--液相分離理論
+
+\item 蛋白質折疊研究學社(於美國加州柏克萊大學) \hfill 2017年6月3日 \\
+主題：帶電無序蛋白在液--液相分離中的序列特異性
+
+\item 多倫多兒童醫院分子結構暨功能研究中心 \hfill 2015年3月12日 \\
+主題：RNA二級結構與單鍊結合蛋白的相互作用
+
+\item 理論生物物理中心(於美國萊斯大學) \hfill 2014年10月27日 \\
+主題：RNA二級結構與單鍊結合蛋白的相互作用
+
+\item 國立成功大學國家理論物理中心(台灣) \hfill 2014年6月9日 \\
+主題：RNA二級結構與單鍊結合蛋白的相互作用
+
+
+\end{etaremune} 
+
 
 \end{flushleft}
 
