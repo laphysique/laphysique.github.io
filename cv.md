@@ -4,7 +4,7 @@ permalink: "/cv/"
 layout: page
 ---
 
-* **[Industrial One-Page Resume](/docs/resume/LinYH_Resume.pdf)**  
+* **[Industrial Two-Page Resume](/docs/resume/LinYH_Resume.pdf)**  
 * **[Publication List](/docs/publication/LinYH_Pubs.pdf)**  
 * **[Academia CV](https://individual.utoronto.ca/yihsuanlin/LinYH_CV.pdf)**  
    
