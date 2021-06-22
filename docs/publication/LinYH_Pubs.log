@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUN 2021 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUN 2021 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -400,20 +400,20 @@ AED: lastpage setting LastPage
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
 (./LinYH_Pubs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `LinYH_Pubs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
  8388 strings out of 480608
  125083 string characters out of 5903631
- 410447 words of memory out of 5000000
+ 409447 words of memory out of 5000000
  24164 multiletter control sequences out of 15000+600000
  534816 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -428,7 +428,7 @@ x10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
 i10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb>
-Output written on LinYH_Pubs.pdf (1 page, 82840 bytes).
+Output written on LinYH_Pubs.pdf (1 page, 82836 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

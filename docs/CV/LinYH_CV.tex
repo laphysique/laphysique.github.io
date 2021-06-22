@@ -1,0 +1,460 @@
+\documentclass[11pt]{../yhlcv}     
+
+\def\tname#1{{\bf #1}}
+
+
+\usepackage{xifthen}
+\newenvironment{prebox}[2][]
+{
+\def\temp{#2}
+\def\ttemp{\ifthenelse{\isempty{#1}}{}{\\ {\it #1} & }}
+\begin{tabular}[t]{
+>{\raggedright\arraybackslash}p{0.825\linewidth}
+>{\raggedleft\arraybackslash}p{0.175\linewidth}
+}
+}
+{
+&  \temp  
+ \ttemp \end{tabular}
+}
+
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\title{Curriculum Vitae}
+\name{Yi-Hsuan Lin, PhD}
+\mobile{416-829-6531}
+\email{yi-hsuan.lin@outlook.com}
+\webpage{laphysique.github.io}
+%\linkedin{yihsuanlinphysics}
+%\github{laphysique}
+
+\maketitle
+
+\raggedright
+
+\section*{Education}
+
+{\bf Ph.D., Physics} \hfill 2015 \vspace{0.25em}\\
+The Ohio State University, Ohio, USA \\
+Thesis: {\it  The interplay between single-stranded binding proteins on RNA secondary structure} \\
+Supervisor: Ralf Bundschuh
+
+{\bf B.Sc., Physics} \hfill 2009 \vspace{0.25em}\\
+University of Illinois at Urbana-Champaign, Illinois, USA \\
+High Distinction in Physics \\
+{\small (National Taiwan University, Taiwan, 2005--2007, transferred)}
+
+\section*{Research summary}
+
+Theoretical and computational physics, chemistry, and biology. Focusing on polymer physics theories, protein molecular mechanisms, biopolymer phase separation, and RNA-protein interaction. 
+{\bf 11} invited talks, {\bf 15} papers, {\bf 806} citations, h-index = {\bf 11} (Jun 2021)
+
+\section*{Academic Positions}
+
+{\bf Joint Postdoctoral Fellow} \hfill Jul 2015 -- Jul 2021 \vspace{0.25em} \\
+Department of Biochemistry, University of Toronto  \\ 
+Molecular Medicine, Hospital for Sick Children, Toronto, ON, Canada
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Developing statistical physics theories for the “sequence specificity" in biological liquid-liquid
+phase separation
+\item Collaborating with experimentalists and computational biologists to test the above-mentioned physics theory
+\item Develop Monte Carlo simulation programs from scratch for modelling protein assemblies
+\item Published {\bf 13} peer-reviewed papers in theoretical/computational physics, chemistry, and biology
+\item Supervised and mentored over {\bf 4} junior scientists (graduate students and trainees)
+
+\item[] Project: {\it Theories for sequence-dependent phase behaviors of biomolecular condensates}
+\item[] Supervisors: Hue Sun Chan \& Julie D. Forman-Kay
+\end{itemize} 
+
+{\bf Graduate Research Associate} \hfill Aug 2012 -- May 2015 \vspace{0.25em} \\
+Department of Physics, The Ohio State University
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Developed statistical physics theory for RNA secondary structure and RNA-protein binding systems
+\item Developed Monte Carlo simulation programs for investigating RNA membrane translocation
+\item Developed solvable Markov system describing DNA-repair process
+	%Applied statistical mechanics to investigate the cooperativity between multiple 
+	%RNA-binding proteins mediated by RNA secondary structure
+\item Established theoretical framework for online RNA-protein binding predictor RBPBind
+\item Published {\bf 2} first-author papers in theoretical physics and bioinformatics
+\item[] Project: {\it Biophysics of interactions between proteins and nucleic acids}
+\item[] Supervisor: Ralf Bundschuh
+\end{itemize}
+
+
+{\bf Graduate Research Associate} \hfill Aug 2011 -- May 2012 \vspace{0.25em} \\
+Department of Physics, The Ohio State University
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Applied the Nozi\'{e}res-Schmitt-Rink method to calculate the critical temperature in
+	BEC-BCS crossover
+\item[] Project: {\it BEC-BCS crossover in cold-atomic systems}
+\item[] Supervisor: Tin-Lun Ho
+\end{itemize}
+
+\section*{Publications}
+
+\begin{etaremune}[leftmargin=0.26in]
+
+\item 
+Wessén J, Pal T, Das S, \tname{Lin Y-H}, and Chan HS (2021)
+A simple explicit-solvent model of polyampholyte phase behaviors and its ramifications for dielectric effects in biomolecular condensates.
+{\it J Phys Chem B} {\bf 125} 4337--4358 (selected supplementary cover)
+
+\item 
+Das S, \tname{Lin Y-H}, Vernon RM, Forman-Kay JD, and Chan HS (2020)
+Comparative roles of charge, $\pi$, and hydrophobic interactions in sequence-dependent phase separation of intrinsically disordered proteins.
+{\it Proc Natl Acad Sci USA} {\bf 117} 28795--28805
+
+\item 
+Amin AN$^*$, \tname{Lin Y-H}$^*$, Das S, and Chan HS (2020)
+Analytical theory for sequence-specific binary fuzzy complexes of charged intrinsically disordered proteins.
+{\it J Phys Chem B} 
+{\bf 124} 6709--6720
+($^*$equal contribution; selected supplementary cover) 
+
+\item
+\tname{Lin Y-H}, Brady JP, Chan HS, and Ghosh K (2020)
+A unified analytical theory of heteropolymers for sequence-specific phase behaviors of polyelectrolytes and polyampholytes. 
+{\it J Chem Phys} {\bf 152} 045102
+
+\item
+Cinar H, Oliva R, \tname{Lin Y-H}, Chen X, Zhang M, Chan HS, and Winter RHA (2020)
+Pressure sensitivity of SynGAP/PSD-95 condensates as a model for postsynaptic densities and its biophysical and neurological ramifications. 
+{\it Chem Eur J} {\bf 26} 11024--11031 (cover feature) 
+
+\item 
+Das S, Amin AN, \tname{Lin Y-H}, and Chan HS (2018)
+Coarse-grained residue-based models of disordered protein condensates: 
+utility and limitations of simple charge pattern parameters.
+{\it Phys Chem Chem Phys} {\bf 20} 28558--28574 
+
+\item
+\tname{Lin Y-H}, Forman-Kay JD, and Chan HS (2018)
+Theories for sequence-dependent phase behaviors of biomolecular condensates.
+{\it Biochemistry} {\bf 57} 2499--2508
+
+\item 
+Das S, Eisen A, \tname{Lin Y-H}, and Chan HS (2018)
+A lattice model of charge-pattern-dependent polyampholyte phase separation.
+{\it J Phys Chem B} {\bf 122} 5418--5431
+
+\item
+\tname{Lin Y-H}, Brady JP, Forman-Kay JD, and Chan HS (2017) 
+Charge pattern matching as a ``fuzzy'' mode of molecular recognition for the functional phase separations of intrinsically disordered proteins.
+{\it New J Phys} {\bf 19} 115003
+
+\item 
+Brady JP, Farber PJ, Sekhar A, \tname{Lin Y-H}, Huang R, Bah A, Nott TJ, Chan HS, Baldwin AJ, Forman-Kay JD, and Kay LE (2017) 
+Structural and hydrodynamic properties of an intrinsically disordered region of a germ-cell specific protein upon phase separation. 
+{\it Proc Natl Acad Sci USA} {\bf 114} E8194--E8203
+
+\item
+\tname{Lin Y-H} and Chan HS (2017) 
+Phase separation and single-chain compactness of charged disordered proteins are strongly correlated. 
+{\it Biophys J} {\bf 112} 2043--2046
+
+\item 
+\tname{Lin Y-H}, Song J,Forman-Kay JD, and Chan HS  (2017) 
+Random-phase-approximation theory for sequence-dependent, biologically functional liquid-liquid phase separation of intrinsically disordered proteins. 
+{\it J Mol Liq} {\bf 228} 176--193
+
+\item
+\tname{Lin Y-H}, Forman-Kay JD, and Chan HS (2016) 
+Sequence-specific polyampholyte phase separation in membraneless organelles. 
+{\it Phys Rev Lett} {\bf 117} 178101
+
+\item 
+\tname{Lin Y-H} and Bundschuh R (2015) 
+RNA structure generates natural cooperativity between single-stranded RNA binding proteins targeting 5' and 3'UTRs.
+{\it Nucleic Acids Res} {\bf 43} 1160--1169
+
+\item 
+\tname{Lin Y-H} and Bundschuh R (2013) 
+Interplay between single-stranded binding proteins on RNA secondary structure.
+{\it Phys Rev E} {\bf 88} 052707
+
+\end{etaremune} 
+
+\subsection*{Working Papers}
+
+\begin{itemize}[leftmargin=*]
+
+\item 
+\tname{Lin Y-H}, Wu H, Zhang M, and Chan HS (2021)
+Chemical theory for exploring the correlation between heteromultimeric protein complex formation and liquid-liquid phase separation (in preparation)
+
+\item
+\tname{Lin Y-H}, Wessén J, Pal T, Das S, and Chan HS (2021)
+Numerical techniques for applications of analytical theories to sequence-dependent phase separations of intrinsically disordered proteins (submitted)
+
+\item 
+Gaither J, \tname{Lin Y-H}, and Bundschuh R (2016) 
+RBPBind: Quantitative prediction of Protein-RNA Interactions. 
+Preprint: arXiv:1611.01245 %[q-bio.BM]
+
+\end{itemize} 
+
+\section*{Honors and Awards}
+
+\noindent
+{\bf Postdoctoral Award}, Intrinsically Disordered Protein Subgroup, Biophysical Society (USA) \hfill 2019 \\
+{\bf Connell Award for Postdoctoral Fellow}, Department of Biochemistry, University of Toronto \hfill 2018 \\
+{\bf Dean's List}, College of Liberal Arts and Sciences, University of Illinois at Urbana-Champaign \hfill 2007 \\
+{\bf Presidential Award}, Department of Physics, National Taiwan University \hfill 2007 \\
+{\bf Gold Medal}, The 36$^{ \mathsf{th}}$ International Physics Olympiad \hfill 2005
+
+\subsection*{Scholarships and Travel Awards} 
+{\bf Travel Award}, Biophysical Society 63$^{\sf rd}$ Annual Meeting (USA) \hfill 2019 \\
+{\bf Scholarship for Study Abroad}, Graduate Study, Taiwan Ministry of Education \hfill 2009--2013 \\
+{\bf Scholarship for Study Abroad}, Undergraduate Study, Taiwan Ministry of Education \hfill 2007--2009 
+
+
+\section*{Professional Service}
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Poster judge for divisional student poster competition for the Division of Physics in Medicine and Biology at the Canadian Association of Physicists Congress 2021
+
+\item Co-chair of "Using Polymer Sequence to Control Material Properties" session at the American Physical Society March Meeting 2019 (with Dr. Lisa Hall at The Ohio State University)
+\end{itemize}
+
+
+\section*{Industrial Experience}
+
+{\bf Molecular Modelling Lead}  \hfill Jan 2021 -- present \vspace{0.25em} \\
+HTuO Biosciences, Vancouver, BC, Canada 
+\vspace{-0.7em} \\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Establishing the physics principles of a new molecular dynamics force field for pharmaceutical applications
+\item Developing a molecular dynamics simulation software with the above-mentioned new force field embedded
+\item Incorporating machine learning to parametrize force fields and optimize their simulation performance
+\item Implementing mathematical physics to validate stability of various simulation methods
+\end{itemize}
+
+{\bf Data Scientist} \hfill Jun 2020 -- Oct 2020 \vspace{0.25em} \\
+%\href{https://sustainability.exchange}{
+Sustainability.Exchange, Toronto, ON, Canada
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Applied supervised machine learning algorithms and Bayesian statistics to build models for time series
+forecasting of environmental, social and corporate governance (ESG) financial data.
+\end{itemize}
+
+{\bf Science Advisor} \hfill Nov 2019 -- Dec 2019 \vspace{0.25em} \\
+StemCellerant, {Remotely}
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Providing consultation on biotech application and business development of new stem cell differentiation technology and systems biology.
+\end{itemize}
+
+\section*{Mentoring Experience}
+
+{\bf Department of Biochemistry, University of Toronto} \vspace{0.25em}
+
+Designed research projects, provided instructions on math, physics, and computational methods, 
+and manuscript writing
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Alan Amin, %Department of Biochemistry, University of Toronto 
+Research Undergraduate Student
+\hfill Sep 2017 -- Jun 2019 \\
+Project: {\it Cluster-expansion theory for sequence-specific IDP-IDP interactions}
+
+\item Adam Eisen, %Department of Mathematics \& Statistics, Queen's University 
+Research Undergraduate Student
+\hfill Jun 2016 -- Aug 2016 \\
+Project: {\it Monte Carlo simulation of lattice models for polyampholytes} 
+\end{itemize}
+
+{\bf Molecular Medicine, The Hospital for Sick Children} \vspace{0.25em}
+
+Provided instructions on thesis writing and defense preparation
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Shuo-Chin Yen, 
+Masters Student 
+\hfill Jul 2018 -- Sep 2018 \\
+Thesis: {\it Characterization of the dependence of Src:ND2 binding on 
+	phosphorylation and intramolecular Src interactions} 
+\end{itemize}
+
+
+\section*{Teaching Experience}
+
+{\bf Lecturer, Center for Study Oversee Inc. } \hfill 2020 \vspace{0.5em}
+
+Taught undergraduate level online courses in biology and physics, designing homework and exams
+and \\ grading standards, and providing recitation sessions upon request  \vspace{0.5em}
+
+Introduction to Physics ($\sim$10 students) \hfill Summer 2020 \\
+Introduction to Biology ($\sim$10 students) \hfill Summer 2020 \\
+
+\ \
+
+{\bf Teaching Associate, Department of Physics, The Ohio State University} \hfill 2009 -- 2011\vspace{0.5em}
+
+Taught regular homework review sessions and recitations before exams, provided office hours
+for students' \\ needs of extra learning helps, and graded homework \vspace{0.5em}
+
+Physics 836, Electromagnetic Field Theory III (Graduate Level, $\sim$70 students ) \hfill Spring 2011\\
+Physics 835, Electromagnetic Field Theory II (Graduate Level, $\sim$70 students) \hfill  Winter 2011 \\
+Physics 834, Electromagnetic Field Theory I (Graduate Level, $\sim$70 students) \hfill Autumn 2010 \\
+Physics 730, Methods of Theoretical Physics ($\sim$20 students) \hfill Spring 2010 \\
+Physics 664, Theoretical Mechanics ($\sim$40 students) \hfill Spring 2010 \\
+Physics 622, Statistical Physics II ($\sim$40 students) \hfill Winter 2010 \\
+Physics 656, Fields and Waves II ($\sim$40 students) \hfill Winter 2010 \\
+Physics 621, Statistical Physics I ($\sim$40 students) \hfill Autumn 2009
+
+\section*{Presentations}
+
+\subsection*{Invited Seminars and Colloquia}
+
+\begin{etaremune}[leftmargin=0.26in]
+
+\item {\it Introduction to machine learning and its application in biophysics and computational biology}, Division of Physics in Medicine and Biology (DPMB) 101 Lecture, Canadian Association of Physicists Congress, Online, {\bf Jun 7, 2021}
+
+\item {\it Polymer field theory for sequence-specific intracellular phase separation of biological heteropolymers}, Department of Physics, University of Manitoba, Winnipeg, MB, Canada, {\bf Nov 25, 2020}
+
+\item {\it Polymer theory for the sequence-specific phase separation behaviors of charged intrinsically disordered proteins}, Intrinsically Disordered Protein Subgroup Postdoctoral Award Talk, Biophysical Society 63$^{\sf rd}$  Annual Meeting, Baltimore, MD, USA, {\bf Mar 2, 2019}
+
+\item {\it Theories and simulations for sequence-specific behaviors of intrinsically disordered proteins in liquid-liquid phase separation}, Institute of Chemistry, Chinese Academy of Sciences, Beijing, China PRC, {\bf Oct 16, 2018}
+
+\item {\it Theories and simulations for sequence-specific behaviors of intrinsically disordered proteins in liquid-liquid phase separation}, Center for Quantitative Biology, Peking University, Beijing, China PRC, {\bf Oct 15, 2018}
+
+\item {\it Theories and simulations for liquid-liquid phase separation in biology}, Institute of Biophysics, Central China Normal University, Wuhan, China PRC, {\bf Oct 12, 2018}
+
+\item {\it Sequence-specific theory for intrinsically disordered proteins in liquid-liquid phase separation (Connell Award for Postdoctoral Fellow)}, Department of Biochemistry Retreat of University of Toronto, Geneva Park, Orillia, ON, Canada, {\bf Oct 2, 2018}
+
+\item {\it Sequence-specific behaviors of charged intrinsically disordered proteins
+	in liquid-liquid phase separation}, Protein Folding Consortium, University of California, Berkeley, CA, USA, {\bf Jun 3, 2017}
+
+\item {\it The interplay between single-stranded binding proteins on RNA secondary structures},
+	Molecular Structure and Function, The Hospital for Sick Children, Toronto, ON, Canada, {\bf Mar 12, 2015}
+
+\item {\it The interplay between single-stranded binding proteins on RNA secondary structures},
+	Center for Theoretical Biophysics, Rice University, Houston, TX, USA, {\bf Oct 27, 2014}
+
+\item {\it The interplay between single-stranded binding proteins on RNA secondary structures}, National Center for Theoretical Sciences, National Cheng Kung University, Tainan, Taiwan ROC, {\bf Jun 9, 2014}
+
+\end{etaremune}
+
+\subsection*{Contributed Talks}
+\begin{etaremune}[leftmargin=0.2in]
+
+\item {\it Random phase approximation and renormalized Gaussian chain for charged 
+	hetero-biopolymers and their sequence-specific phase behavior}, Canadian Association of Physicists Congress, Burnaby, BC, Canada, {\bf Jun 4, 2019}
+
+\item {\it Cluster-expansion theory for sequence-specific ``fuzzy" interaction between pairs of 
+	intrinsically disordered proteins}, American Physical Society March Meeting, Boston, MA, USA,
+	{\bf Mar 8, 2019}
+
+\item {\it Sequence-specific random-phase-approximation theory for polyampholytic intrinsically 
+	disordered proteins in liquid-liquid phase separation}, Canadian Association of Physicists Congress,
+	Halifax, NS, Canada,
+	{\bf Jun 14, 2018}
+
+\item {\it Sequence-specific polymer theory for charged intrinsically disordered proteins in liquid-liquid 
+	phase separation}, Chemical Biophysics Symposium at University of Toronto, Toronto, ON, Canada, 
+	{\bf May 4, 2018}
+
+\item {\it Random-phase-approximation theory for sequence-dependent behaviors of intrinsically
+	 disordered proteins in liquid-liquid phase separation}, American Physical Society March Meeting, New Orleans, LA, USA,
+	{\bf Mar 15, 2017}
+
+\item {\it Loop cost in RNA secondary structures and the long-range cooperativity between RNA-binding proteins}, American Physical Society March Meeting, Denver, CO, USA, {\bf Mar 5, 2014}
+	
+\item {\it The interplay between single-stranded binding proteins on RNA secondary structures}, American Physical Society March Meeting, Baltimore, MD, USA, {\bf Mar 22, 2013}
+
+\end{etaremune}
+
+
+\subsection*{Poster Presentations}
+\begin{etaremune}[leftmargin=0.26in]
+
+\item Biophysical Society of Canada 5$^{\rm th}$ Annual Meeting, Mississauga, ON, Canada \hfill {May 28--31, 2019}
+
+\item Biophysical Society 63$^{\sf rd}$  Annual Meeting, Baltimore, MD, USA \hfill {Mar 2--6, 2019}
+	%[Sequence-specific random-phase- approximation theory for polyampholytic intrinsically disordered 
+	%proteins in liquid-liquid phase separation]
+
+\item Gordon Research Conference -- Polymer Physics, South Hadley, MA, USA \hfill {Jul 21--27, 2018}
+	%[Sequence-specific random-phase- approximation theory for polyampholytic intrinsically disordered 
+	%proteins in liquid-liquid phase separation]
+
+\item Protein Folding Consortium, Ann Arbor, MI, USA \hfill 	{Jun 8--10, 2018}
+	%[Sequence-specific polymer theory for intrinsically disordered proteins in liquid-liquid phase separation]
+
+\item Gordon Research Conference -- Protein, Holderness, NH, USA \hfill 	{Jun 18--23, 2017}
+	%[Sequence-specific behaviors of charged intrinsically disordered proteins in liquid-liquid phase separation]
+
+\item Biophysical Society of Canada 3$^{\rm rd}$ Annual Meeting, Montr\'{e}al, QC, Canada \hfill {May 24--26, 2017}
+	%[Sequence-specific behaviors of charged intrinsically disordered proteins in liquid-liquid phase separation]
+
+\item Protein Folding Consortium, St. Louis, MO, USA \hfill {Jun 9--12, 2016}
+	%[Sequence-specific polyampholyte phase separation in membraneless organelles]
+
+\item Rustbelt RNA Meeting, Pittsburgh, PA, USA \hfill {Oct 17--18, 2014}
+	%[Structure-mediated cooperativity between single-stranded RNA binding partners on 5' and 3'UTRs]
+
+\item Soft Matter Science Summer School, Mittelwihr, France \hfill {Jul 6--11, 2014}
+	%[Interplay between single-stranded binding proteins on RNA secondary structure]
+
+\item Rustbelt RNA Meeting, Cleveland, OH, USA \hfill {Oct 18--19, 2013}
+
+\end{etaremune}
+
+
+\section*{Skills}
+\begin{itemize}[leftmargin=*]\itemsep-0.1em
+%
+\item {\bf Math/Stat:}
+Numerical Analysis, 
+Bayesian Statistics, 
+Multivariate Linear/Nonlinear Optimization, 
+%\item {\bf Advanced Math for Physics:} 
+Linear Algebra, 
+Multivariable Calculus,
+Stochastic Calculus,
+Partial Differential Equation, 
+%Fourier and Laplace Transformation
+Complex Analysis %, Functional Optimization %with Functional Analysis
+\item{\bf Modelings:}
+Theoretical Physics, Molecular Biophysics, Bioinformatics,
+Monte Carlo Simulation, Molecular Dynamics Simulation, %Support-Vector Machines, 
+%Neural Networks, Random Forests,
+Data-Driven Statistical Modeling,
+Machine Learning,
+%Natural Language Processing, 
+%Dynamic Programming,
+Deep Learning, %Reinforcement Learning, %Gaussian Mixture Model,
+Data Visualization, 
+Principal Component Analysis, 
+Time Series Forecasting
+%
+\item{\bf Programming:} 
+Python, Matlab/Octave, C/C++, Mathematica, Julia, SQL
+%
+\item{\bf Tools:}
+Numpy, Scipy, Pandas, Matplotlib, Scikit-Learn, PyMC, SQLite, MPI, PyCharm, Git
+\end{itemize}
+
+
+
+
+\section*{Certificates}
+
+Financial Engineering and Risk Management I \& II (Coursera.org/Columbia Univ)  \\
+Introduction to Deep Learning with Honors (Coursera.org/HSE Univ) \\
+Bayesian Methods for Machine Learning with Honors (Coursera.org/HSE Univ)   \\
+Practical Reinforcement Learning with Honors (Coursera.org/HSE Univ)  \\
+
+
+
+\end{document}
+
+
