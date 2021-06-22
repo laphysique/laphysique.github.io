@@ -8,9 +8,7 @@ layout: frontpage
 
 I apply various theoretical and computational techniques to solve problems at the intersection of physics, chemistry, and biology. Given the complexity of biological systems, the physics and chemistry involved are often so intricate that no reliable ab initio models can be constructed. Coarse-graining and abstract models, based on physics, chemistry, and math intuitions are general required. Methods I use can be roughly categorized as: follows:
 
-<div id="fifty-right">
-<img style="margin:20px 0px 0px 0px" src="images/methods_schematic.svg" />
-</div>
+<img src="images/methods_schematic.png" />
 
 <div id="fifty-left" markdown="1">
 
