@@ -23,6 +23,7 @@ minimal: false               # use simpler style
 
 navigation:
   - {file: "index.md", icon: home}
+  - {file: "biophysics.md", icon: dna}
   - {file: "projects.md",  icon: address-card}
   - {file: "cv.md",  icon: cv}
 
