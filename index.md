@@ -21,7 +21,7 @@ Recently, I'm interested in new computational methods, from classical to quantum
 mechanics techniques, for structural-based molecular modeling.  
 
 This website is where I deposit my coding projects, technique implementation practices,
-and some math and sciences study notes
+and some math and sciences study notes.
 
 <!--I code mainly in Python3 with Numpy, Scipy, Pandas, and Scikit-learn, 
 and have experience in C/C++ for linear algebra, differential equations, 

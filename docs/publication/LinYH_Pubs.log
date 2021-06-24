@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUN 2021 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 JUN 2021 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -283,7 +283,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip63
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 42.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
@@ -411,10 +411,10 @@ Package rerunfilecheck Info: File `LinYH_Pubs.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 8388 strings out of 480608
- 125083 string characters out of 5903631
- 409447 words of memory out of 5000000
- 24164 multiletter control sequences out of 15000+600000
+ 8390 strings out of 480608
+ 125098 string characters out of 5903631
+ 409485 words of memory out of 5000000
+ 24166 multiletter control sequences out of 15000+600000
  534816 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,49p,234b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -428,7 +428,7 @@ x10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
 i10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb>
-Output written on LinYH_Pubs.pdf (1 page, 82836 bytes).
+Output written on LinYH_Pubs.pdf (1 page, 82872 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
