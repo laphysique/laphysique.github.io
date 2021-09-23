@@ -30,7 +30,7 @@ navigation:
 external:                    # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yi-hsuan.lin@outlook.com"}
   - {title: Linkedin, icon: linkedin, url: "https://linkedin.com/in/yihsuanlinphysics"}
-  - {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Yi_Hsuan_Lin9"}
+  #- {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Yi_Hsuan_Lin9"}
   - {title: Google_Scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=Ob9KposAAAAJ&hl=en"}
   - {title: Github, icon: github, url: "https://github.com/laphysique"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
