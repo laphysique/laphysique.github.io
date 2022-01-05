@@ -1,88 +1,6 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+\documentclass[11pt]{../yhlcv}     
 
-
-\documentclass[11pt,letterpaper, sans]{article}     
-%\usepackage[letterpaper, left=0.7in, right=0.7in,top=0.5in, bottom=0.5in]{geometry} 
-\usepackage[top=0.5in, bottom=0.5in, left=0.8in, right=0.8in]{geometry}  
-\usepackage{xcolor}
-\renewcommand\familydefault{\sfdefault} 
-\usepackage[T1]{fontenc}
-\usepackage[none]{hyphenat}
-\pagenumbering{gobble}
-
-\usepackage{bm}
-
-\usepackage{enumitem}
-\usepackage{tabularx}
-
-
-
-
-
-\newcommand{\newsec}[1]{\subsection*{\hspace{-1.5pt}\uppercase{#1}}}
-\newcommand{\newsubsec}[1]{\vspace{0.2cm}{\bf #1}\vspace{0.1cm}} 
-
-\newcommand{\itm}[1]{$\circ\;$ #1 \vspace{0.1em}\\}
-
-\newenvironment{boxhonor}[1]
-{
-\def\temp{#1}
-\begin{tabular}
-{p{0.025\textwidth}>{\raggedright\arraybackslash}
-p{0.85\textwidth}>{\raggedleft\arraybackslash}
-p{0.125\textwidth}}
-$\circ\;\,$ &
-}
-{
-&  \temp \end{tabular}
-}
-
-% Make lists without bullets
-\newenvironment{itemnew}{
-  \begin{itemize}[label=$\circ$,leftmargin=*]{
-  }
-}{
-  \end{itemize}
-}
-
-
-
-
-
-
-
-% personal data
-\def\name{Yi-Hsuan Lin, PhD}
-
-\def\header{
-\begin{center}
-{\LARGE\bf \name} \vspace{0.3cm} \\
-yi-hsuan.lin@outlook.com
-| $+$1-416-829-6531 | 
-%\href{http://individual.utoronto.ca/yihsuanlin}{individual.utoronto.ca/yihsuanlin} \\
-%\href{https://laphysique.github.io}{laphysique.github.io}
-\href{https://www.linkedin.com/in/yihsuanlinphysics/}{www.linkedin.com/in/yihsuanlinphysics/}
-\end{center}
-}
-
-
-
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks = true,
-    urlcolor = black,
-    linkcolor = black,
-    citecolor = black,
-  pdfauthor = {\name},
-  pdftitle = {\name: resume},
-  pdfsubject = {resume},
-  pdfpagemode = UseNone
-}
+\def\tname#1{{\bf #1}}
 
 
 %----------------------------------------------------------------------------------
@@ -90,111 +8,67 @@ yi-hsuan.lin@outlook.com
 %----------------------------------------------------------------------------------
 \begin{document}
 
-% Header
-\header
+\title{Resume}
+\name{Yi-Hsuan Lin, PhD}
+\mobile{416-829-6531}
+\email{yi-hsuan.lin@outlook.com}
+\linkedin{yihsuanlinphysics}
+\github{laphysique}
 
-\begin{flushleft}
+\maketitle
 
-%\newsec{Summary}
+\raggedright
 
-%A theoretical physics PhD with excellent skills of numerical analysis and quantitative modeling, having 10+ years of experience in solving quantitative complex problems %by numerical analysis and quantitative modeling 
-%into your team. 
-%the~\team~at
-%~\company.
-%\vspace{-2.5em}\ \
-
-\newsec{Highlights}
+\section*{Highlights}
 
 \begin{itemize}[leftmargin=*]\itemsep-0.2em
-\item {\bf 10+} years of research experience in theoretical and computational biophysics and bioinformatics
-\item {\bf 14} scientific papers in peer-reviewed journals
-cumulatively cited $\bm{ \sim\!700}$ citation. %{\bf over 600} times
-\item {\bf 10} invited and colloquia in world-leading academic institutes and conferences
-%\item Co-chaired a special session %the ``Using Polymer Sequence to Control Material Properties" 
-%at the 2019 American Physical Society March Meeting (Mar 8, 2019)
-\item Academic website: \href{http://individual.utoronto.ca/yihsuanlin}{individual.utoronto.ca/yihsuanlin}
-\item GitHub repositories: \href{https://github.com/laphysique}{github.com/laphysique} 
+\item {\bf 10+ years} of research experience in {\bf theoretical biophysics}, {\bf computational biology}, and {\bf bioinformatics}
+\item {\bf 15} scientific papers in peer-reviewed journals of, cumulatively cited {\bf over 800} times
+\item {\bf 11} invited seminars and colloquia in world-leading academic institutes and conferences, including the {\bf Machine Learning in Biophysics} lecture at the 2021 Canadian Association for Physicists Congress.
 \end{itemize}
 
-\newsec{Education}
+\section*{Education}
 
 {\bf Ph.D., Physics}, The Ohio State University, Ohio, USA \hfill 2015 \\
-{\bf B.Sc., Physics}, University of Illinois at Urbana-Champaign, Illinois, USA (GPA 3.74) \hfill 2009
+{\bf B.Sc., Physics}, University of Illinois at Urbana-Champaign, Illinois, USA (GPA 3.74, High Distinction) \hfill 2009
 
-\newsubsec{Certificates}: 
+\section*{Experience}
 
-Financial Engineering and Risk Management I \& II (Columbia Univ) \hfill 2020 \\
-Introduction to Deep Learning with Honors (Coursera.org/HSE Univ)  \hfill 2020 \\
-Bayesian Methods for Machine Learning with Honors (Coursera.org/HSE Univ)  \hfill 2020 \\
-Practical Reinforcement Learning with Honors (Coursera.org/HSE Univ)  \hfill 2020 \\
-
-\newsec{Experience}
-
-{\bf Molecular Modeling Lead,
-HTuO Biosciences} 
-\hfill Jan 2021 -- present
-\vspace{-0.5em} \\
+{\bf Molecular Modelling Lead}  \hfill Jan 2021 -- present \vspace{0.25em} \\
+HTuO Biosciences, Vancouver, BC, Canada 
+\vspace{-0.7em} \\
 \begin{itemize}[leftmargin=*]\itemsep-0.2em
-\item Developing molecular dynamics simulation force fields
-\item Incorporating machine learning to optimizing simulation performance
-\item Implementing mathematical physics to validate stability of simulation methods
+\item Establishing the physics principles of a new molecular dynamics force field for pharmaceutical applications
+\item Developing a molecular dynamics simulation software with the above-mentioned new force field embedded
+\item Incorporating machine learning to parametrize force fields and optimize their simulation performance
+\item Implementing mathematical physics to validate stability of various simulation methods
 \end{itemize}
 
-%{\bf Freelance ESG Data Scientist} \hfill Jun 2020 -- present
-%\vspace{-0.5em}\\
-%\begin{itemize}[leftmargin=*]\itemsep-0.1em
-%\item Applied supervised machine learning algorithms and Bayesian statistics to build models for time series
-%forecasting of environmental, social and corporate governance (ESG) financial data.
-%\end{itemize}
-
-%{\bf Science Advisor, StemCellerant} \hfill Nov 2019 -- Dec 2019 
-%\vspace{-0.5em}\\
-%\begin{itemize}[leftmargin=*]\itemsep-0.1em
-%\item Provided consultation on biotech application and business development of new stem cell differentiation technology and systems biology
-%\end{itemize}
-
-\vspace{-1.5em}\ \
-
-{\bf Postdoctoral Fellow, 
-University of Toronto / Hospital for Sick Children} 
-\hfill Jul 2015 -- Jul 2021  %\vspace{0.2em}
-\vspace{-0.5em}\\
-%Project: {\it Theories for sequence-dependent phase behaviors of biomolecular condensates}\vspace{-0.2em} 
+{\bf Data Scientist} \hfill Jun 2020 -- Oct 2020 \vspace{0.25em} \\
+%\href{https://sustainability.exchange}{
+Sustainability.Exchange, Toronto, ON, Canada
+\vspace{-0.7em}\\
 \begin{itemize}[leftmargin=*]\itemsep-0.2em
-\item Published {\bf 12} peer-reviewed papers in theoretical/computational physics, chemistry, and biology
+\item Applied supervised machine learning algorithms and Bayesian statistics to build models for time series
+forecasting of environmental, social and corporate governance (ESG) financial data.
+\end{itemize}
+
+{\bf Postdoctoral Fellow} \hfill Jul 2015 -- Jul 2021 \vspace{0.25em} \\
+University of Toronto \& Hospital for Sick Children, Toronto, ON, Canada
+\vspace{-0.7em}\\
+\begin{itemize}[leftmargin=*]\itemsep-0.2em
+\item Developing statistical physics theories for the “sequence specificity" in biological liquid-liquid
+phase separation
+\item Collaborating with experimentalists and computational biologists to test the above-mentioned physics theory
+\item Develop Monte Carlo simulation programs from scratch for modelling protein assemblies
+\item Published {\bf 13} peer-reviewed papers in theoretical/computational physics, chemistry, and biology
 \item Supervised and mentored over {\bf 4} junior scientists (graduate students and trainees)
 %\item Conduct research on theoretical and computational biophysics and biochemistry 
 %\item Develop quantitative models for predicting complex protein and nucleic acid behavior%biological phenomena
-%\item Develop Monte Carlo simulation programs from scratch for protein assemblies 
 \item Project: {\it Theories for sequence-dependent phase behaviors of biomolecular condensates}
 \end{itemize}
 
-\vspace{-1.5em}\ \
-
-{\bf Graduate Research Associate, %in Biophysics, 
-The Ohio State University}  \hfill Jul 2012 -- May 2015
-\vspace{-0.5em} \\
-%Project: {\it Biophysics of interactions between proteins and nucleic acids} \vspace{-0.2em} 
-\begin{itemize}[leftmargin=*]\itemsep-0.2em
-%\item Developed statistical physics models for DNA and RNA behavior
-\item Published {\bf 2} peer-reviewed papers in theoretical physics and bioinformatics
-\item Established theoretical framework for online RNA-protein binding predictor \href{http://bioserv.mps.ohio-state.edu/RBPBind/}{\underline{\bf RBPBind}}
-\item Project: {\it Biophysics of interactions between proteins and nucleic acids}
-%\item Conducted statistical analysis for RNA and microRNA databases
-%\item Conducted Monte Carlo simulation for RNA behavior
-\end{itemize}
-
-%\noindent
-%{\bf Graduate Research Associate in Quantum Physics,
-%The Ohio State University}  \hfill Jul 2011 -- May 2012
-%\vspace{-0.5em} \\
-%\begin{itemize}[leftmargin=*]\itemsep-0.1em
-%\item Applied quantum physics methods to study the behavior of atoms at absolute zero degree.
-%\item Project: {\it BEC-BCS crossover in cold-atomic systems}
-%\end{itemize}
-
-
-\newsec{Skills}
+\section*{Skills}
 \begin{itemize}[leftmargin=*]\itemsep-0.1em
 %
 \item {\bf Math/Stat:}
@@ -216,7 +90,7 @@ Data-Driven Statistical Modeling,
 Machine Learning,
 %Natural Language Processing, 
 %Dynamic Programming,
-Deep Learning, Reinforcement Learning, %Gaussian Mixture Model,
+Deep Learning, %Reinforcement Learning, %Gaussian Mixture Model,
 Data Visualization, 
 Principal Component Analysis, 
 Time Series Forecasting
@@ -225,24 +99,110 @@ Time Series Forecasting
 Python, Matlab/Octave, C/C++, Mathematica, Julia, SQL
 %
 \item{\bf Tools:}
-Numpy, Scipy, Pandas, Matplotlib, Scikit-Learn, PyMC, TensorFlow, PyTorch, SQLite, MPI, Git
-%
-
-
+Numpy, Scipy, Pandas, Matplotlib, Scikit-Learn, PyMC, SQLite, MPI, PyCharm, Git
 \end{itemize}
 
-%\vspace{-1em}
+\section*{Publications}
 
-\newsec{Honors and Awards}
+\begin{etaremune}[leftmargin=0.26in]\itemsep-0.2pt
+
+\item 
+Wessén J, Pal T, Das S, \tname{Lin Y-H}, and Chan HS (2021)
+A simple explicit-solvent model of polyampholyte phase behaviors and its ramifications for dielectric effects in biomolecular condensates.
+{\it J Phys Chem B} {\bf 125} 4337--4358 %(selected supplementary cover)
+
+\item 
+Das S, \tname{Lin Y-H}, Vernon RM, Forman-Kay JD, and Chan HS (2020)
+Comparative roles of charge, $\pi$, and hydrophobic interactions in sequence-dependent phase separation of intrinsically disordered proteins.
+{\it Proc Natl Acad Sci USA} {\bf 117} 28795--28805
+
+\item 
+Amin AN$^*$, \tname{Lin Y-H}$^*$, Das S, and Chan HS (2020)
+Analytical theory for sequence-specific binary fuzzy complexes of charged intrinsically disordered proteins.
+{\it J Phys Chem B} 
+{\bf 124} 6709--6720
+($^*$equal contribution) %, selected supplementary cover) 
+
+\item
+\tname{Lin Y-H}, Brady JP, Chan HS, and Ghosh K (2020)
+A unified analytical theory of heteropolymers for sequence-specific phase behaviors of polyelectrolytes and polyampholytes. 
+{\it J Chem Phys} {\bf 152} 045102
+
+\item
+Cinar H, Oliva R, \tname{Lin Y-H}, Chen X, Zhang M, Chan HS, and Winter RHA (2020)
+Pressure sensitivity of SynGAP/PSD-95 condensates as a model for postsynaptic densities and its biophysical and neurological ramifications. 
+{\it Chem Eur J} {\bf 26} 11024--11031 %(cover feature) 
+
+\item 
+Das S, Amin AN, \tname{Lin Y-H}, and Chan HS (2018)
+Coarse-grained residue-based models of disordered protein condensates: 
+utility and limitations of simple charge pattern parameters.
+{\it Phys Chem Chem Phys} {\bf 20} 28558--28574 
+
+\item
+\tname{Lin Y-H}, Forman-Kay JD, and Chan HS (2018)
+Theories for sequence-dependent phase behaviors of biomolecular condensates.
+{\it Biochemistry} {\bf 57} 2499--2508
+
+\item 
+Das S, Eisen A, \tname{Lin Y-H}, and Chan HS (2018)
+A lattice model of charge-pattern-dependent polyampholyte phase separation.
+{\it J Phys Chem B} {\bf 122} 5418--5431
+
+\item
+\tname{Lin Y-H}, Brady JP, Forman-Kay JD, and Chan HS (2017) 
+Charge pattern matching as a ``fuzzy'' mode of molecular recognition for the functional phase separations of intrinsically disordered proteins.
+{\it New J Phys} {\bf 19} 115003
+
+\item 
+Brady JP, Farber PJ, Sekhar A, \tname{Lin Y-H}, Huang R, Bah A, Nott TJ, Chan HS, Baldwin AJ, Forman-Kay JD, and Kay LE (2017) 
+Structural and hydrodynamic properties of an intrinsically disordered region of a germ-cell specific protein upon phase separation. 
+{\it Proc Natl Acad Sci USA} {\bf 114} E8194--E8203
+
+\item
+\tname{Lin Y-H} and Chan HS (2017) 
+Phase separation and single-chain compactness of charged disordered proteins are strongly correlated. 
+{\it Biophys J} {\bf 112} 2043--2046
+
+\item 
+\tname{Lin Y-H}, Song J,Forman-Kay JD, and Chan HS  (2017) 
+Random-phase-approximation theory for sequence-dependent, biologically functional liquid-liquid phase separation of intrinsically disordered proteins. 
+{\it J Mol Liq} {\bf 228} 176--193
+
+\item
+\tname{Lin Y-H}, Forman-Kay JD, and Chan HS (2016) 
+Sequence-specific polyampholyte phase separation in membraneless organelles. 
+{\it Phys Rev Lett} {\bf 117} 178101
+
+\item 
+\tname{Lin Y-H} and Bundschuh R (2015) 
+RNA structure generates natural cooperativity between single-stranded RNA binding proteins targeting 5' and 3'UTRs.
+{\it Nucleic Acids Res} {\bf 43} 1160--1169
+
+\item 
+\tname{Lin Y-H} and Bundschuh R (2013) 
+Interplay between single-stranded binding proteins on RNA secondary structure.
+{\it Phys Rev E} {\bf 88} 052707
+
+\end{etaremune} 
+
+\section*{Honors and Awards}
 
 \noindent
 {\bf Postdoctoral Award}, Intrinsically Disordered Protein Subgroup, Biophysical Society (USA) \hfill 2019 \\
+{\bf Connell Award for Postdoctoral Fellow}, Department of Biochemistry, University of Toronto \hfill 2018 \\
 {\bf Scholarship for Study Abroad}, Taiwan Ministry of Education  \hfill 2007--2013 \\
 {\bf Gold Medal}, The 36$^{ \mathsf{th}}$ International Physics Olympiad \hfill 2005
 
+\section*{Certificates}
 
-\end{flushleft}
+Financial Engineering and Risk Management I \& II (Coursera.org/Columbia Univ)  \\
+Introduction to Deep Learning with Honors (Coursera.org/HSE Univ) \\
+Bayesian Methods for Machine Learning with Honors (Coursera.org/HSE Univ)   \\
+Practical Reinforcement Learning with Honors (Coursera.org/HSE Univ)  \\
+
+
 
 \end{document}
 
-%% end of file `template.tex'.
+

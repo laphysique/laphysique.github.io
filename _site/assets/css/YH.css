@@ -1,11 +1,18 @@
 @media (min-width : 501px) {
 #fifty-right {  width:49.5%; height: auto; float:right;}  
 #fifty-left  {  width:49.5%; height: auto; float:left;}  
-}
-@media (max-width : 501px) {
+#thirty-right {  width:34.5%; height: auto; float:right;}
+#seventy-left {  width:64.5%; height: auto; float:left;}
+}  
+@media (max-width : 500px) {
 #fifty-right {  width:100%; height: auto; }  
 #fifty-left {  width:100%; height: auto; }  
+#thirty-right {  width:100%; height: auto; }  
+#seventy-left {  width:100%; height: auto; }  
 }
+
+
+
 
 
 
