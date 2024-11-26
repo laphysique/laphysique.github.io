@@ -8,11 +8,11 @@ layout: page
 * **[Publication List](/docs/publication/LinYH_Pubs.pdf)**  
 * **[Academia CV](/docs/CV/LinYH_CV.pdf)**  
  
-2022--present
-R&D Lead
+2022--present  
+R&D Lead  
 HTuO Biosciences  
    
-2021--2022 
+2021--2022  
 Molecular Modeling Lead  
 HTuO Biosciences  
 
