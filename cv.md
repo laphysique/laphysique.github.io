@@ -7,9 +7,12 @@ layout: page
 * **[Industrial Two-Page Resume](/docs/resume/LinYH_Resume.pdf)**  
 * **[Publication List](/docs/publication/LinYH_Pubs.pdf)**  
 * **[Academia CV](/docs/CV/LinYH_CV.pdf)**  
+ 
+2022--present
+R&D Lead
+HTuO Biosciences  
    
-   
-2021--present  
+2021--2022 
 Molecular Modeling Lead  
 HTuO Biosciences  
 
