@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.11)  23 FEB 2025 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.11)  9 NOV 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,20 +428,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
-[2] [3] [4] [5] 
+[2] [3] [4] [5] [6] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./LinYH_CV.aux)
 Package rerunfilecheck Info: File `LinYH_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11840 strings out of 476025
- 186028 string characters out of 5790017
+ 11841 strings out of 476025
+ 186034 string characters out of 5790017
  1869388 words of memory out of 5000000
  32144 multiletter control sequences out of 15000+600000
  515371 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,324b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,90p,324b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
@@ -454,10 +454,10 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on LinYH_CV.pdf (5 pages, 144193 bytes).
+Output written on LinYH_CV.pdf (6 pages, 145368 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
