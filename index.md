@@ -11,7 +11,7 @@ layout: frontpage
 <div id="fifty-left" markdown="1">
 
 
-My name is **Yi-Hsuan Lin** (林義軒, Lén I-Chuèn for francophones).  
+My name is **Yi-Hsuan Lin** (林義軒).  
  
 I am a theoretical physics PhD fond of all kinds of sciences and technology topics,
 particularly focusing on "biophysical chemistry" or other equivalent subjects 
@@ -22,10 +22,6 @@ mechanics techniques, for structural-based molecular modeling.
 
 This website is where I deposit my coding projects, technique implementation practices,
 and some math and sciences study notes.
-
-<!--I code mainly in Python3 with Numpy, Scipy, Pandas, and Scikit-learn, 
-and have experience in C/C++ for linear algebra, differential equations, 
-and Monte Carlo simulation.-->
 
 </div>
 
