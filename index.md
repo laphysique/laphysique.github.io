@@ -21,7 +21,7 @@ Recently, I'm interested in new computational methods, from classical to quantum
 mechanics techniques, for structural-based molecular modeling.  
 
 <!--This website is where I deposit my coding projects, technique implementation practices,
-and some math and sciences study notes. --!>
+and some math and sciences study notes. -->
 
 </div>
 
